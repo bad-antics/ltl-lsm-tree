@@ -1,0 +1,15 @@
+// ltl-lsm-tree/main.ltl
+//
+// Log-structured merge tree — the core of a write-optimised KV store.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-lsm-tree v0.1.0")
+    io::println("Log-structured merge tree — the core of a write-optimised KV store.")
+    0
+}
